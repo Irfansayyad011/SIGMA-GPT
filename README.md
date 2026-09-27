@@ -24,7 +24,7 @@ GEMINI_API_KEY=your_gemini_api_key_here
 GEMINI_MODEL=gemini-2.0-flash
 
 # MongoDB Database Connection String (local or Atlas)
-MONGODB_URI=mongodb://127.0.0.1:27017/sigmagpt
+MONGODB_URI=enter your url
 
 # JWT Authentication Secret Key
 JWT_SECRET=sigmagpt_local_dev_jwt_secret_secure_key_2026
@@ -32,9 +32,8 @@ JWT_SECRET=sigmagpt_local_dev_jwt_secret_secure_key_2026
 # Server Port (default 8080)
 PORT=8080
 
-# Default Seed Administrator Credentials
-DEFAULT_ADMIN_USERNAME=admin
-DEFAULT_ADMIN_PASSWORD=Admin@123
+# Administrator Credentials
+Admin credentials are configured through environment variables.
 ```
 
 Start the backend:
